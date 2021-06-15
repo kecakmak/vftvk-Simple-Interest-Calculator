@@ -20,4 +20,9 @@ function updateRate() {
     var rateval = document.getElementById("rate").value; 
     document.getElementById("rate_val").innerText=rateval;
 }
+
+function abc() { 
+    var entry = document.getElementById("principal").value; 
+    if (entry < 1) {alert ("Please enter a positive amount")}
+}
         
